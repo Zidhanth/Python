@@ -1,0 +1,10 @@
+def fact(n1):
+  if n1%2==0:
+      s=1
+      for i in range(1,n1+1):
+        s=s*i
+        print(s)
+  else:
+    print("number is odd",n1)
+n=int(input("Enter the number"))
+fact(n)
