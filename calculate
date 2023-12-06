@@ -1,0 +1,18 @@
+def sum1(n1,n2):
+ z1=n1+n2
+ print("sum",z1)
+def sub(n1,n2):
+ z2=n1-n2
+ print("sub",z2) 
+def mult(n1,n2):
+ z3=n1*n2
+ print("mult",z3)
+def div(n1,n2):
+ z4=n1/n2
+ print("div",z4)
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+sum1(a,b)
+sub(a,b)
+mult(a,b)
+div(a,b)
